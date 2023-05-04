@@ -1,0 +1,40 @@
+<h1>Employee Details : </h1>
+
+<!-- Employee Id : <h3>{{employee.id}}</h3><br>
+First Name : <h3>{{employee.firstName}}</h3><br>
+Last Name : <h3>{{employee.lastName}}</h3><br>
+Email Id : <h3>{{employee.email}}</h3> -->
+<div>
+    <div>
+        <label ><b>Employee ID: </b></label>{{employee.id}}
+    </div>
+    <div>
+        <label ><b>First Name: </b></label>{{employee.firstName}}
+    </div>
+    <div>
+        <label ><b>Last Name: </b></label>{{employee.lastName}}
+    </div>
+    <div>
+        <label ><b>Email Id: </b></label>{{employee.email}}
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#ID</th>
+        <th scope="col">First NAME</th>
+        <th scope="col">Last NAME</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{employee.id}}</th>
+        <td>{{employee.firstName}}</td>
+        <td>{{employee.lastName}}</td>
+        <td>{{employee.email}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
